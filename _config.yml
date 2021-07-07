@@ -1,0 +1,35 @@
+title: site name
+author:
+email:
+description: >-
+  概要
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
+## 変換対象から除外
+exclude:
+  - .gitignore
+  - bs-config.js
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Procfile
+  - REAADME.md
+
+plugins:
+  - jekyll-tidy
