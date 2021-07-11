@@ -1,8 +1,20 @@
-title: site name
-author:
-email:
+title: にゃあ
 description: >-
   概要
+copyright:
+  year: 2021
+  name: nakasu
+
+author:
+  name:  nakasu
+  email: unkohacker@gmail.com
+
+social_links:
+  twitter: unkohacker
+  github:  unkohacker
+
+disqus:
+  shortname: nuko
 
 collections:
   pages:
@@ -19,6 +31,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
 
 
 ## 変換対象から除外
