@@ -43,6 +43,12 @@ exclude:
   - Makefile
   - Procfile
   - REAADME.md
+  ## 以下も除外しないとGitHub Actionsでエラーが出る
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 plugins:
   - jekyll-tidy
