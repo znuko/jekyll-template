@@ -24,7 +24,7 @@ module.exports = {
     ignoreInitial: true,
   },
   server: false,
-  proxy: "localhost:4000",
+  proxy: "localhost:4000", // jekyll default
   port: 3000,
   middleware: false,
   serveStatic: [],
