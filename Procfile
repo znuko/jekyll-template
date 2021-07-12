@@ -1,2 +1,2 @@
-bs: sleep 2 && browser-sync --config bs-config.js --proxy localhost:$proxy startweb: bundle exec jekyll s --baseurl "" --port $proxy
+web: bundle exec jekyll s --baseurl "" --port $proxy
 bs: sleep 2 && browser-sync start --config bs-config.js --proxy localhost:$proxy
