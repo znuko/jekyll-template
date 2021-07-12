@@ -16,8 +16,8 @@ social_links:
 disqus:
   shortname: nuko
 
-baseurl: ""
-url    : "http://znuko.github.io/jekyll-template"
+baseurl: "/jekyll-template"
+# url    : "http://znuko.github.io"
 
 collections:
   pages:
