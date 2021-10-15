@@ -56,5 +56,6 @@ exclude:
 
 plugins:
   - jekyll-tidy
+  - jekyll-admin
 
 "挨拶": "こんにちわ"
