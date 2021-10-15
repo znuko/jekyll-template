@@ -43,6 +43,9 @@ defaults:
     values:
       layout: member
 
+plugins:
+  - jekyll-tidy
+  - jekyll-admin
 
 ## 変換対象から除外
 exclude:
@@ -59,8 +62,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-plugins:
-  - jekyll-tidy
-  - jekyll-admin
 
