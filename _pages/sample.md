@@ -1,6 +1,5 @@
 ---
 title: Smaple
-permalink: sample
 ---
 
 # h1
