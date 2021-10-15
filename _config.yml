@@ -23,6 +23,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  members:
+    output: true
 
 defaults:
   - scope:
@@ -36,6 +38,10 @@ defaults:
     values:
       layout: "post"
       comments: true
+  - scope:
+      type: members
+    values:
+      layout: member
 
 
 ## 変換対象から除外
