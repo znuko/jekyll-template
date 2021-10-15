@@ -48,4 +48,14 @@ echo うんこ
 
 ## ハッシュキー文字列
 
-挨拶は、「{{ site["挨拶"] }}」です。
+挨拶は、「{{ site.data.test["挨拶"] }}」です。
+
+- {{ site.data.test["New field 5"] }}
+- {{ site.data.test["てすと"] }}
+- {{ site.data.test["てすと 2"] }}
+
+<ol>
+{% for hash in site.data.test %}
+  <li>{{ hash[0] }} => {{ hash[1] }}</li>
+{% endfor %}
+</ol>
